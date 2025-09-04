@@ -1,0 +1,22 @@
+version: 2
+
+sources:
+  - name: sales_order
+    database: sales
+    schema: sales_order
+
+    tables:
+      - name: customers
+      - name: dates
+
+      - name: employees
+
+      - name: products
+
+      - name: suppliers
+
+      - name: stores
+
+      - name: orderitems
+
+      - name: orders
